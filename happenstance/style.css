@@ -1,0 +1,293 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.header1
+{
+    height:65px;
+    width:100%;
+    margin: auto;
+    background-color:black;
+    position: sticky;
+    top: 0%;
+   
+}
+.head
+{
+    height: 60px;
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    left: 56%;
+    padding: 2%;
+}
+.head i
+{
+    font-size: 20px;
+    color: white;
+    padding:2%;
+
+}
+.headr1 span
+{ 
+    font-size: 20px;
+    padding: 2%;
+}
+.mainheader
+{
+    height: 70px;
+    width: 88%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo 
+{
+    height:50px;
+    width:16%;
+    position: relative;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.logo img
+{
+    height: 40px;
+    width:100%;
+}
+.section
+{   
+    height: 60px;
+    width:100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: bisque; */
+    position: sticky;
+    top: 8%;
+    backdrop-filter: blur(15px) saturate(180%);
+}
+.menu
+{
+    height: 50px;
+    width: 25%;
+    line-height: 280%;
+    
+}
+.menu ul
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.menu .line
+{
+    font-size: 18px;
+
+}
+.input
+{
+    height: 50px;
+    width: 20%;
+    position: relative;
+    left: 4%;
+}
+    
+input
+{
+    outline: none;
+    height: 40px;
+    width:80%;
+    border-radius:20px;
+    border: 1px solid gray;
+}
+.ri-search-line
+{
+    position: absolute;
+    right: 25%;
+    top: 20%;
+
+}
+.input::placeholder
+{
+    padding: 5%;
+}
+
+.line::after
+{
+    content: '';
+    display: block;
+    border: 1px solid black;
+    width: 0%;
+    margin: auto;
+    transition: all ease-in-out 0.4s;
+}
+.line:hover::after
+ {
+    width: 100%;
+ }
+.contain1
+{
+    height: 500px;
+    width: 90%;
+    background-color: black;
+    margin: auto;
+}
+.contain1 img
+{
+    height: 500px;
+    width: 100%;
+
+}
+
+h3
+{
+    color: black;
+    text-align: center;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+h3::before
+{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 42%;
+    background: rgb(144, 143, 143);
+    right: 0%;
+    top: 50%;
+    position: absolute;
+}
+h3::after
+{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 42%;
+    background: rgb(144, 143, 143);
+    left: 0%;
+    top: 50%;
+    position: absolute;
+}
+
+.rec1
+{
+    
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 5px;
+    
+
+}
+.rec1 img
+{
+    width: 24%;
+    height: 100%;
+    border-radius: 10px;
+}
+.rec3
+{
+    
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 5px;
+    
+
+
+}
+.rec3 img
+{
+    width: 24%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.rec3 video
+{
+    width: 24%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.contain4
+{
+    height: 250px;
+    width:90%;
+    background-color:whitesmoke;
+    margin:auto;
+    position: relative;
+    
+    
+}
+.foot
+{
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    margin: auto;
+
+}
+.box1
+{
+    height: 200px;
+    width: 23%;
+}
+h4
+{
+    font-size: 18px;
+    text-align: left;
+}
+ul 
+{
+   padding: 10px;
+}
+li
+{
+   padding: 5px;
+}
+.footer
+{
+    height: 100px;
+    width: 90%;
+    margin: auto;
+}
+.icon
+{
+    height: 52px;
+    width: 25%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 10pxs;
+
+}
+img
+{
+  height:50px;
+  width: 50px;
+}
+

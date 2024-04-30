@@ -1,0 +1,100 @@
+@media(max-width:480px) {
+    * 
+    {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .header1 {
+        height: 65px;
+        width: 100%;
+        margin: auto;
+        background-color: black;
+        position: sticky;
+        top: 0%;
+
+    }
+
+    .section {
+        height: 200px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: bisque; */
+        position: sticky;
+        top: 8%;
+        backdrop-filter: blur(15px) saturate(180%);
+
+    }
+
+    .logo {
+        height: 50px;
+        width: 80%;
+        position: relative;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .logo img {
+        height: 50px;
+        width: 100%;
+    }
+
+    .menu {
+        height: 100px;
+        width: 80%;
+        line-height: 100%;
+
+    }
+
+    .menu ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+
+    .menu .line {
+        font-size: 18px;
+
+    }
+
+    .input 
+    {
+        height: 20px;
+        width: 80%;
+        position: relative;
+        left: 4%;
+        top: 1%;
+    }
+
+    input
+    {
+        outline: none;
+        height: 30px;
+        width: 80%;
+        border-radius: 20px;
+        border: 1px solid gray;
+    }
+
+    .ri-search-line 
+    {
+        position: absolute;
+        right: 25%;
+        top: %;
+
+    }
+
+    .input::placeholder 
+    {
+        padding: 5%;
+    }
+
+}
